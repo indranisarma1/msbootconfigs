@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: conversionms
+        uri: lb://conversionms
+        predicates:
+        - Path=/convfactor/**
