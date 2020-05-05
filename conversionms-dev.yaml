@@ -1,0 +1,4 @@
+conversionms.h2.console.enabled: true
+conversionms.datasource.url: "jdbc:h2:mem:convfactorDb;DB_CLOSE_DELAY=-1"
+conversionms.datasource.username: sa
+conversionms.datasource.password:
