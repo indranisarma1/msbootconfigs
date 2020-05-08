@@ -2,3 +2,6 @@ conversionms.h2.console.enabled: true
 conversionms.datasource.url: "jdbc:h2:mem:convfactorDb;DB_CLOSE_DELAY=-1"
 conversionms.datasource.username: sa
 conversionms.datasource.password:
+conversionms.zipkin.url: http://192.168.99.100:9411/
+conversionms.rabbitmq.host: 192.168.99.100
+conversionms.rabbitmq.port: 5672
