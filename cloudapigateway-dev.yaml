@@ -10,4 +10,4 @@ spring:
       - id: currencyms
         uri: lb://currencyms
         predicates:
-        - Path=/convertcurrency/**
+        - Path=/convertcurrency/v2/**
