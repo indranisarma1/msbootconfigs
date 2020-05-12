@@ -1,3 +1,4 @@
+
 spring:
   cloud:
     gateway:
@@ -6,3 +7,7 @@ spring:
         uri: lb://conversionms
         predicates:
         - Path=/convfactor/**
+      - id: currencyms
+        uri: lb://currencyms
+        predicates:
+        - Path=/convertcurrency/**
