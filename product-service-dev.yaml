@@ -1,5 +1,6 @@
-zipkin.url: http://192.168.99.105:9411/
+zipkin.url: http://192.168.99.105:30187/
 mysql.db.host : 192.168.99.105
 mysql.db.port : 32212
 user.info.uri : http://localhost:8082/user
 rabbitmq.host : 192.168.99.105
+rabbitmq.port : 31988
